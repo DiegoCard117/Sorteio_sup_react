@@ -1,9 +1,16 @@
 type ButtonProps = {
-  text?: string
+  text?: string;
+}
+
+export function ButtonTop(props: ButtonProps) {
+  return (
+    <button id="btn">{props.text}</button>
+  )
 }
 
 export function Button(props: ButtonProps) {
   return (
-    <button>{props.text}</button>
+    <button className="btn-blue">{props.text}</button>
   )
 }
+
