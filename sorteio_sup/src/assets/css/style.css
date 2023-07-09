@@ -291,6 +291,7 @@ li {
 
 .grid-sort {
   display: grid;
+  place-items: center;
   grid-template-columns: 1fr 0.8fr;
   grid-template-rows:1029px;
   grid-column-gap: 36px;
@@ -300,8 +301,8 @@ li {
 }
 
 .grid-inter-left {
-  grid-area: 1 / 1 / 2 / 2;
-  margin-left: 40px;
+  grid-column: 1/2;
+  grid-row: 1/2;
   width: 727px;
   display: flex;
   flex-direction: column;
@@ -326,13 +327,13 @@ li {
 }
 
 .grid-inter-right {
-  grid-area: 1 / 2 / 2 / 3;
+  height: 100%;
+  grid-column: 2/3;
+  grid-row: 1/2;
   margin-right: 45px;
   display: grid;
   grid-template-columns: 314px 314px;  
   grid-template-rows: 50% 50%;
-  position: relative;
-  left: 55px;
 }
 
 .img1-inter {
