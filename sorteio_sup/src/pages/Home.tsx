@@ -1,10 +1,10 @@
-import '../src/assets/css/style.css'
+import '../assets/css/style.css'
 
-import { Header } from './components/Header';
+import { Header } from '../components/Header';
 
-import { Footer } from './components/Footer';
-import { BottomSection } from './components/BottomSection';
-import { Button } from './components/Button';
+import { Footer } from '../components/Footer';
+import { BottomSection } from '../components/BottomSection';
+import { Button } from '../components/Button';
 
 function Home() {
   return (
