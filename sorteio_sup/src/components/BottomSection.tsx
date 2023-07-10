@@ -19,7 +19,7 @@ export function BottomSection() {
           <Button text="Comprar agora" />
         </div>
         <div className="grid-inter-right">
-          <div className="img1-inter"></div>
+          <div className="img1-inter">.</div>
           <div className="img2-inter"></div>
           <div className="img3-inter"></div>
         </div>

@@ -134,8 +134,15 @@
     border-radius: 5px;
   }
 
+  .menu {
+    width: 274px;
+    height: 120px;
+    position: relative;
+    left: 40px;
+  }
+
   .menu li {
-    padding: 15px;
+    padding: 10px;
     list-style-type: none;
 
     color: #FFF;
@@ -154,12 +161,41 @@
   }
     
   .logo {
-    display: none;
+    display:block;
+    position: absolute;
+    left: 5px;
+  }
+
+  .text-logo {
+    display: block;
+    position: relative;
+    left: 55px;
+    top: -40px;
+  }
+
+  #logo-text-one {
+    color: #FFF;
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  #logo-text-two {
+    color: #FFF;
+    font-family: Alfa Slab One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .logo img {
+    width: 50px;
   }
 
   .title-sorteio {
     position: relative;
-    top: -170px;
+    top: -190px;
     text-align: center;
 
     color: #FFF;
@@ -256,4 +292,6 @@
     position: relative;
     top: -20px;
   }
+
+  
 }

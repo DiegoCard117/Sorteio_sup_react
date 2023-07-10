@@ -1,3 +1,6 @@
+import menu from '../assets/img/burguer-menu.svg'
+import { useEffect, useState } from 'react'
+
 type ButtonProps = {
   text?: string;
 }
