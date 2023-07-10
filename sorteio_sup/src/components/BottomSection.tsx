@@ -4,7 +4,7 @@ import imagem from "../assets/img/top-footer.png"
 export function BottomSection() {
   return (
     <>
-    <h1 className="title-why">Porque um Sorteio?</h1>
+    <h1 id="why" className="title-why">Porque um Sorteio?</h1>
       <section className="grid-sort">
         <div className="grid-inter-left paragrafos">
           <p>Estamos crescendo e queremos retribuir todo o apoio que recebemos. Por isso, decidimos organizar um sorteio exclusivo e saudável para vocês.</p>
@@ -24,7 +24,7 @@ export function BottomSection() {
           <div className="img3-inter"></div>
         </div>
         </section>
-        <section className="section-top-footer">
+        <section id="about" className="section-top-footer">
           <h1 className="title-top-footer">Quem é a Saufid?</h1>
           <div className="top-footer">
             <img src={imagem} alt="Imagem de Suplementos"/>

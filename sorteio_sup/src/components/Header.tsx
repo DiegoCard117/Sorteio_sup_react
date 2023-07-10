@@ -17,8 +17,10 @@ export function Header() {
         <nav>
           <ul className="menu">
             <Link to="/sorteios"><li id="sort">Nossos Sorteios</li></Link>
-            <li id="sobre">Sobre Nós</li>
-            <li id="porque">Porque?</li>
+            <span className="divi">/</span>
+            <a href="#about"><li id="sobre">Sobre Nós</li></a>
+            <span className="divi">/</span>
+            <a href="#why"><li id="porque">Porque?</li></a>
           </ul>
         </nav>
         <div>
