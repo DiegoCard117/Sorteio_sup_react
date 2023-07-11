@@ -1,4 +1,5 @@
 import '../assets/css/style.css'
+import '../assets/css/footer.css'
 
 import { Header } from '../components/Header';
 
@@ -23,15 +24,12 @@ function Home() {
         </section>
         <section className="container">
             <div className="content-img1">
-              <div className="img1"></div>
               <p className="description description-all">Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria </p>
             </div>
             <div className="content-img2">
-              <div className="img2"></div>
               <p className="description description-all">Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria </p>
             </div>
             <div className="content-img3">
-              <div className="img3"></div>
               <div className=" description-all description-right">
                 <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>
                 <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>

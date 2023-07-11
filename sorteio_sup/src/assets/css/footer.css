@@ -1,0 +1,151 @@
+.footer-top {
+  height: 400px;
+  background: #EEE;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.center-footer {
+  width: 186px;
+  height: 178px;
+  border-radius: 16px;
+  background: #D9D9D9;
+
+  position: relative;
+  left: -60px;
+  top: 15%;
+  
+  text-align: center;
+}
+
+.center-footer > img {
+  position: relative;
+  top: -150px;
+}
+
+.qr-code > span {
+  display: block;
+  color: #000;
+  text-align: center;
+  font-family: Aleo;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  width: 57px;
+  height: 60px;
+  
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}
+
+.right-footer {
+  width: 250px;
+  margin-right: 25px;
+}
+
+.right-footer > p {
+  color: #000;
+  font-family: Outfit;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: start;
+}
+
+.right-footer > ul > li {
+  display: inline-block;
+  margin: 12px 15px 0px 0px;
+}
+
+.left-footer {
+  color: #000;
+  font-family: Aleo;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: start;
+  margin-left: 25px;
+}
+
+
+.left-footer > h3 {
+  font-size: 40px;
+}
+
+.icons {
+  height: 45px;
+  object-fit: contain;
+}
+
+.bottom-footer {
+  background: #EEE;
+  text-align: center;
+  height: 50px;
+
+  color: #000;
+  font-family: Aleo;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.right-footer ul {
+  background: #EEE;
+}
+
+
+@media screen and (max-width: 1070px) {
+
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+  }
+
+  .center-footer {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .center-footer > img {
+    position: relative;
+    top: -250px;
+  }
+
+  .right-footer {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    margin: 0;
+
+    position: relative;
+    bottom: 65%;
+    left: 10px;
+  }
+
+  .right-footer p {
+    display: none;
+  }
+
+  .left-footer {
+    position: relative;
+    bottom: -70%;
+    text-align: center;
+  }
+  .bottom-footer {
+    height: 100px;
+    font-size: 1em;
+  }
+}
