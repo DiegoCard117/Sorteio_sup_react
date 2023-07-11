@@ -532,6 +532,7 @@ a {
 
   .section-top-footer {
     position: relative;
+    padding-bottom: 30px;
   }
 
   .title-top-footer {
