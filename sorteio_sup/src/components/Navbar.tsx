@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react'
 
-import menu from '../assets/img/burguer-menu.svg'
+import menu from '../assets/img/menu.svg'
 
 export function Navbar() {
 
@@ -18,7 +18,7 @@ export function Navbar() {
   }
 
   return (
-    <div>
+    <>
       <nav>
         <ul className={menu_class}>
           <Link to="/sorteios"><li id="sort">Nossos Sorteios</li></Link>
@@ -28,7 +28,9 @@ export function Navbar() {
           <a href="#why"><li id="porque">Porque?</li></a>
         </ul>
       </nav>
-      <div onClick={updateMenu} ><img className="menu-burguer" src={ menu } alt="" /></div>
-    </div>
+      <div onClick={updateMenu} className="menu-responsivo">
+        <img className="menu-burguer" src={ menu } alt="" />
+      </div>
+    </>
   )
 }
