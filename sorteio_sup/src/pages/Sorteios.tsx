@@ -6,7 +6,7 @@ import { BottomSection } from "../components/BottomSection";
 import { Footer } from "../components/Footer";
 
 import Img1 from "../assets/img/img-sorteio1.png"
-import Img2 from '../assets/img/img2-sorteio.png'
+import Img2 from "../assets/img/img2-sorteio.png"
 import Img3 from "../assets/img/img3-sorteio.png"
 
 export function Sorteios() {
@@ -38,7 +38,7 @@ export function Sorteios() {
       <section className="mid-page">
         <div className="mid-page-top">
           <div className="img-sort-page">
-            <img src={ Img2 } alt="" />
+            <img src={ Img1 } alt="" />
           </div>
           <div className="text-sort-page text-left">
             <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria plana elementar em livros-texto usados no ensino brasileiro a partir do século XIX – a proposta se atém ao texto demonstrativo em uma esfera específica, a do ensino-aprendizagem.</p>
