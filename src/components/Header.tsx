@@ -16,7 +16,7 @@ export function Header() {
         </div>
         <Navbar />
         <div>
-          <ButtonTop text="Comprar agora" />
+          <ButtonTop>Comprar agora</ButtonTop>
         </div>
       </header>
     </>

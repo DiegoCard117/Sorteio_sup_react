@@ -16,7 +16,7 @@ export function BottomSection() {
           <p>Junte-se a nós nesse sorteio saudável e venha descobrir como é possível alcançar a melhor versão de si mesmo!</p>
           <p>Saufid Suplementos: Promovendo saúde e bem-estar em Uberlândia e além! Junte-se a nós e descubra como podemos ajudá-lo a alcançar a sua melhor versão.</p>
           <p>Adquira seu bilhete e participe deste sorteio especial agora mesmo!</p>
-          <Button text="Comprar agora" />
+          <Button>Comprar agora</Button>
         </div>
         <div className="grid-inter-right">
           <div className="img1-inter"></div>

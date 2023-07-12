@@ -15,7 +15,7 @@ function Home() {
             <div className="text-button">
               <p className="text">Compre agora o seu bilhete para o sorteio
                 que acontecerá no dia XX/XX/23.</p>
-              <Button text='Comprar agora'/>
+                <Button>Comprar agora</Button>
             </div>
         </section>
         <section className="title-top">
