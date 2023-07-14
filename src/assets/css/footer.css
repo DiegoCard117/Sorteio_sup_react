@@ -1,6 +1,9 @@
+footer {
+  background: #EEE;
+}
+
 .footer-top {
   height: 400px;
-  background: #EEE;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -109,29 +112,30 @@
   .footer-top {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 650px;
     align-items: center;
   }
 
   .center-footer {
     position: relative;
-    top: -40px;
+    top: 20px;
     left: 0;
   }
 
   .center-footer > img {
     position: relative;
-    top: -180px;
+    top: -250px;
   }
 
   .right-footer {
+    background: transparent;
     display: flex;
     width: 200px;
     justify-content: space-around;
     margin: 0;
 
     position: relative;
-    bottom: 70%;
+    bottom: 420px;
     left: 10px;
   }
 
@@ -141,12 +145,14 @@
 
   .left-footer {
     position: relative;
-    bottom: -70%;
+    bottom: -80%;
     text-align: center;
     margin: 0;
   }
 
   .bottom-footer {
+    top: 50px;
+    position: relative;
     height: 100px;
     font-size: 1em;
   }
