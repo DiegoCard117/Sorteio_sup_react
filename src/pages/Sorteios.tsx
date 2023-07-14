@@ -45,7 +45,6 @@ export function Sorteios() {
           </div>
         </div>
       </section>
-
       <h1 className="title-sort exce">Pré-Treino ZZZ Marca</h1>
       <section className="mid-page">
         <div className="mid-page-top">
