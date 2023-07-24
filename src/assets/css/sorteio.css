@@ -263,9 +263,12 @@
   }
 
   .text-sort-page {
-    width: 90%;
+    width: 100%;
+    height: 20vh;
     display: block;
     margin: auto;
+    margin-top: 20px;
+
     background: #11485C;
     padding: 10px;
 
@@ -274,15 +277,20 @@
     font-style: normal;
     font-weight: 400;
     line-height: 106%;
-    border-radius: 0px 0px 20px 20px;
     border-top: 15px solid #4BC3F0;
 
     position: relative;
-    top: -20px;
+  }
+
+  .text-sort-page p {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+
   }
 
 }
-
+/*
 @media screen and (min-width: 541px) {
   .text-sort-page {
     border-top: 35px solid #4BC3F0;
@@ -290,3 +298,4 @@
     top: -10%;
   }
 }
+*/

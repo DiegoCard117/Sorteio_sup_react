@@ -23,18 +23,21 @@ function Home() {
             <p>Abaixo está nossos top 3 sorteios, clique neles e descubra mais sobre os produtos sorteados ! </p>
         </section>
         <section className="container">
-            <div className="content-img1">
-              <p className="description description-all">Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria </p>
-            </div>
-            <div className="content-img2">
-              <p className="description description-all">Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria </p>
-            </div>
-            <div className="content-img3">
-              <div className=" description-all description-right">
-                <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>
-                <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>
-              </div>
-            </div>
+            <div className="content-img1"></div>
+            <div className=" description description-all description-right">
+              <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>
+              <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>
+            </div>   
+            <div className="content-img2"></div>
+            <div className=" description description-all description-right">
+              <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>
+              <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>
+            </div>   
+            <div className="content-img3"></div>
+            <div className=" description description-all description-right">
+              <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>
+              <p>Como tenho por objetivo, nesta Tese, construir uma resposta para a questão – como foi se modificando a demonstração em geometria</p>
+            </div>   
         </section>
         <BottomSection/>
         <Footer/>

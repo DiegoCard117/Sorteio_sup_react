@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react'
 import logo from "../assets/img/logo.png"
 
-import menu from '../assets/img/menu.svg'
+import menu from '../assets/img/menu-white.png'
 
 export function Navbar() {
 
