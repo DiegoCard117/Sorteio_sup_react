@@ -493,6 +493,7 @@ a {
 
   .grid-sort {
     width: 100%;
+    background-image: linear-gradient(to bottom, #235C70, #235D71,#10375B);
   }
 
   .grid-inter-right {
@@ -528,10 +529,11 @@ a {
     object-fit: cover;
     margin: 50px 0px 120px 0;
   }
-
+  
   .section-top-footer {
     position: relative;
     padding-bottom: 30px;
+    background-image: linear-gradient(to top, #235C70, #235D71 , #10375B 50%);
   }
 
   .title-top-footer {
