@@ -5,7 +5,7 @@ import logo from "../assets/img/logo.png"
 import menu from '../assets/img/menu-white.png'
 
 export function Navbar() {
-
+  
   const [menu_class, setMenuClass] = useState("menu hidden")
   const [isMenuClicked, setIsMenuCliked] = useState(false)
 
