@@ -18,7 +18,7 @@ export function Navbar() {
     <>
       <nav>
         <ul className={menu_class}>
-          <li>
+          <li className="responsivo">
             <div className="logo logo-responsivo">
               <Link to="/"><img src={ logo } alt="Logo da Saufid Suplementos" /></Link>
               <div className="text-logo text-logo-responsivo">

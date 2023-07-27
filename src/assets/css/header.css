@@ -1,0 +1,108 @@
+
+@media screen and (min-width: 1421px) {
+
+  .responsivo {
+    display: none !important;
+  }
+
+  .menu-burguer {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .logo {
+    display: block;
+    position: relative;
+    top: 20px;
+  }
+
+  .text-logo {
+    position: relative;
+    bottom: 15px;
+  }
+
+  #logo-text-one {
+    color: #FFF;
+    font-family: Anonymous Pro;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #logo-text-two {
+    color: #FFF;
+    font-family: Alfa Slab One;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .logo, .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo img{
+    height: 88px;
+    width: 88px;
+    margin: 0px 20px 30px 0px; 
+  }
+
+  .menu {
+    padding: 15px 20px;
+    justify-content: space-between;
+    width: 613px;
+    height: 62px;
+
+    border-radius: 20px;
+    background: rgba(29, 78, 96, 0.88);
+
+    margin: 56px 0px;
+  }
+
+  .menu  li {
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    transition: 0.5s;
+  }
+
+  li:hover {
+    text-decoration: underline;
+  }
+
+}
+
+@media screen and (max-width: 1420px) {
+
+  #logo-text-one {
+    color: #FFF;
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #logo-text-two {
+    color: #FFF;
+    font-family: Alfa Slab One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
