@@ -10,14 +10,10 @@ export function Navbar() {
   const [isMenuClicked, setIsMenuCliked] = useState(false)
 
   const updateMenu = () => {
-    if(!isMenuClicked) {
-      setMenuClass("menu visible")
-    } else {
-      setMenuClass("menu hidden")
-    }
+    !isMenuClicked ? setMenuClass("menu visible") : setMenuClass("menu hidden")
     setIsMenuCliked(!isMenuClicked)
   }
-
+  
   return (
     <>
       <nav>
